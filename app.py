@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load your logistic regression model
-model = joblib.load('lr1.joblib')
+model = joblib.load('logistic_regression.joblib')
 
 # Streamlit app title
 st.title('NBA Rookie Career Longevity Prediction App')
